@@ -9,17 +9,17 @@ const Header = () => {
         <Link className="text-primary font-semibold text-2xl" to={'/'}>
           Slice&Chugs
         </Link>
-          <Link to={''}>Home</Link>
-          <Link to={''}>Menu</Link>
-          <Link to={''}>About</Link>
-          <Link to={''}>Contact</Link>
+          <Link to={'/'}>Home</Link>
+          <Link to={'/'}>Menu</Link>
+          <Link to={'/'}>About</Link>
+          <Link to={'/'}>Contact</Link>
 
         </nav>
         <nav className='flex items-center text-gray-500 font-semibold gap-4'>
-          <Link to={'/login'}>
+          <Link to={'login'}>
             Login
           </Link>
-          <Link className='bg-primary text-white rounded-full px-8 py-2' to={"/register"}>
+          <Link className='bg-primary text-white rounded-full px-8 py-2' to={"register"}>
             Register
           </Link>
         </nav>
