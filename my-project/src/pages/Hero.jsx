@@ -17,11 +17,11 @@ const Hero = () => {
                 Pizza, a timeless classic that transcends generations, evoking memories of shared laughter and joyous gatherings. Its irresistible allure lies in its simplicity, yet its ability to comfort and delight knows no bounds.
                 </p>
                 <div className='flex gap-4 text-sm'>
-                    <button className='btn bg-primary text-white uppercase items-center flex gap-2 px-4 py-2 rounded-full'>
+                    <button className='btn bg-primary hover:bg-red-700 text-white uppercase justify-center items-center flex gap-2 px-4 py-2 rounded-full'>
                         Order Now
                         <MdOutlineArrowCircleRight className='icon w-8 h-7' />
                     </button>
-                    <button className='flex gap-2 py-2 items-center text-gray-600 font-semibold'>
+                    <button className='flex gap-2 py-2 items-center justify-center text-gray-600 font-semibold'>
                         Learn More
                         <MdOutlineArrowCircleRight className='w-8 h-7' />
                     </button>
