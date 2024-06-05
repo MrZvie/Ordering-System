@@ -2,8 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .btn:hover .icon{
     @apply translate-x-2 duration-300;
+}
+
+.btns:hover .cart{
+    @apply text-red-600;
+    @apply animate-bounce;
+    
+}
+
+.bck:hover .back{
+    @apply -translate-x-2 duration-300;
+}
+
+.del:hover .delete{
+    @apply text-white;
+}
+
+.edits:hover .edit{
+    @apply text-white;
+}
+
+.mdl:hover .exit{
+    @apply text-white;
+    /* @apply transform rotate-180 duration-500; */
+    @apply animate-spin;
 }
 
 

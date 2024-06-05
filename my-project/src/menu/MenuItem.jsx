@@ -1,11 +1,11 @@
 import React from 'react'
-import neapolitan from '../img/neapolitan-pizza.png'
+import neapolitan from '../img/pizza/NeapolitanPizza.jpg'
 
 const MenuItem = () => {
   return (
     <div className='bg-gray-200 p-4 rounded-lg text-center hover:bg-white transition-all hover:shadow-md hover:shadow-black/50'>
             <div className='text-center'>
-                <img className='max-h-auto max-h-24 block mx-auto' src={neapolitan} alt="popular pizza" />
+                <img className='max-h-auto max-h-24 rounded-xl block mx-auto' src={neapolitan} alt="popular pizza" />
             </div>
             <h4 className='font-semibold text-xl my-3 '>Neapolitan Pizza</h4>
             <p className='text-gray-500 text-sm'>

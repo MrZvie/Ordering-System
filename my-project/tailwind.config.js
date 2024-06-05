@@ -6,8 +6,12 @@ export default {
   ],
   theme: {
     extend: {
-      colors:{
+      screens: {
+        'phone': '448px',
+      },
+      colors: {
         primary: '#f13a01',
+        secondary: '#DADADA',
       },
     },
   },
