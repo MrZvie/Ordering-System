@@ -1,6 +1,7 @@
 import React from 'react'
 import { MdOutlineArrowCircleRight } from "react-icons/md";
-import pizza from '../img/pizza.png'
+import pizza from '../img/pizza/pizza.png'
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -17,14 +18,12 @@ const Hero = () => {
                 Pizza, a timeless classic that transcends generations, evoking memories of shared laughter and joyous gatherings. Its irresistible allure lies in its simplicity, yet its ability to comfort and delight knows no bounds.
                 </p>
                 <div className='flex gap-4 text-sm'>
-                    <button className='btn bg-primary hover:bg-red-700 text-white uppercase justify-center items-center flex gap-2 px-4 py-2 rounded-full'>
-                        Order Now
-                        <MdOutlineArrowCircleRight className='icon w-8 h-7' />
-                    </button>
-                    <button className='flex gap-2 py-2 items-center justify-center text-gray-600 font-semibold'>
-                        Learn More
-                        <MdOutlineArrowCircleRight className='w-8 h-7' />
-                    </button>
+                    <Link to={'menu'}>
+                        <button className='btn max-w-44 bg-primary hover:bg-red-600 text-white uppercase justify-center items-center flex gap-2 px-4 py-2 rounded-full'>
+                            View Menu
+                            <MdOutlineArrowCircleRight className='icon w-8 h-7' />
+                        </button>
+                    </Link>
                 </div>
             </div>
             <div className='relative mx-auto'>

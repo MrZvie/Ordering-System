@@ -14,11 +14,15 @@ const deleteUser = (id) => {
 const getUserId = (id) => {
     return axios.get(REST_API_URL + "/" + id);
 }
+const updateUser = (id) => {
+    return axios.put(REST_API_URL + "/" + id);
+  };
 const Service = {
     getUser,
     addUser,
     deleteUser,
-    getUserId
+    getUserId,
+    updateUser
 }
 
 export default Service
